@@ -10,9 +10,9 @@ class fruit
   {
     seeds = s;
   }
-  /*fruit (fruit& temp){
+  fruit (fruit& temp){
 
-     } */
+     }
 public:
     inline int getVal ()
   {
@@ -37,7 +37,6 @@ int
 main ()
 {
   cout << "fruit demo: " << fruit::getInstance ()->getVal ();
-  fruit
-  x (fruit::getInstance ());
+  //fruit   x (fruit::getInstance ());
   return 0;
 }
